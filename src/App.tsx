@@ -10,15 +10,18 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-br from-oxford/80 via-raspberry/50 to-seagreen/30"></div>
         <div className="container mx-auto px-6 relative z-10 text-center py-20">
           <img 
-            src="https://i.imgur.com/YourLogoHere.png" 
+            src="/images/Logo.jpg" 
             alt="JuanK360 Logo" 
-            className="w-48 h-48 mx-auto mb-8 animate-bounce"
+            className="w-54 h-64 mx-auto mb-8 animate-bounce"
           />
           <h1 className="text-5xl md:text-7xl font-bold text-mint mb-8 animate-fade-in">
-            ¡Diseños que cuentan historias!
+            ¡JuanK 360!
           </h1>
+          <h3 className="text-3xl md:text-5xl font-bold text-mint mb-8 animate-fade-in">
+          ¡Diseños que cuentan historias!
+        </h3>
           <p className="text-xl md:text-2xl text-mint/90 mb-12 max-w-2xl mx-auto">
-            ¡Hola! Soy Juan, tengo 12 años y me encanta crear diseños increíbles 🎨
+          ¡Hola! Bienvenidos a Juank 360, un espacio donde la creatividad no tiene límites. Me apasiona crear diseños increíbles, divertidos y llenos de originalidad, siempre buscando sorprender e inspirar. ¡Descubre un mundo de ideas únicas y déjate llevar por la imaginación! 🚀🎨
           </p>
           <button className="bg-apple hover:bg-apple-600 text-mint font-bold py-4 px-8 rounded-full transform transition hover:scale-110 hover:rotate-3 flex items-center gap-2 mx-auto">
             <Sparkles className="w-6 h-6" />
@@ -34,12 +37,15 @@ function App() {
             <div className="md:w-1/2">
               <h2 className="text-4xl font-bold text-oxford mb-6 flex items-center gap-3">
                 <Gamepad2 className="w-8 h-8 text-raspberry" />
-                ¡Hola! Soy JuanK
+                ¡Juank 360! 
               </h2>
               <p className="text-lg text-oxford/80 mb-6">
-                ¡Me encanta crear diseños divertidos y llenos de color! 
-                Empecé a diseñar porque quería hacer mis propias camisetas de videojuegos, 
-                y ahora ayudo a otros chicos a tener diseños únicos y geniales. 🎮✨
+              ¡Me encanta crear diseños divertidos y llenos de color! 🎨✨ 
+              Todo comenzó con mi deseo de diseñar mis propias camisetas de videojuegos, 
+              y desde entonces, mi pasión por el diseño no ha dejado de crecer. 
+              Ahora quiero compartir contigo creaciones únicas y geniales que reflejen 
+              estilo, diversión y originalidad. 
+              ¡Acompáñame en este viaje creativo! 🚀👕 🎮✨
               </p>
               <div className="flex flex-wrap gap-6">
                 <div className="flex items-center gap-2 bg-oxford text-mint px-4 py-2 rounded-full">
@@ -76,14 +82,14 @@ function App() {
       <section className="py-20 bg-oxford">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-mint mb-12">
-            ¡Mis Creaciones! 🎨
+            ¡Nuestras Creaciones! 🎨
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 title: "¡Camisetas Geniales!",
                 image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80",
-                description: "Diseños increíbles para que te veas súper cool 😎"
+                description: "Diseños increíbles en materiales fantasticos para que te veas súper cool 😎"
               },
               {
                 title: "¡Arte Digital!",
@@ -116,23 +122,23 @@ function App() {
       <section className="py-20 bg-mint">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-oxford mb-12">
-            ¡Lo que dicen mis amigos! 🤩
+            ¡Amigos de Juank 360.! 🤩
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 name: "Pedro",
-                text: "¡Mi camiseta quedó increíble! Todos en la escuela quieren una igual 🔥",
-                role: "12 años"
+                text: "¡Mi camiseta es increíble! Todos en el cole quieren una igual 🔥",
+                role: "15 años"
               },
               {
                 name: "Laura",
-                text: "Juan hizo un diseño súper cool para mi canal de YouTube 🎮",
+                text: "En Juank 360 hicieron un diseño súper cool para mi camiseta, me encantó 🎮",
                 role: "13 años"
               },
               {
                 name: "Miguel",
-                text: "¡Las calcomanías que diseñó para mi patineta son lo máximo! 🛹",
+                text: "¡Los accesorios en Juank 360 son lo máximo! 🛹",
                 role: "11 años"
               }
             ].map((testimonial, index) => (
