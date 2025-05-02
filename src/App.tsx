@@ -92,9 +92,9 @@ function App() {
                 description: "Diseños increíbles en materiales fantasticos para que te veas súper cool 😎"
               },
               {
-                title: "¡Arte Digital!",
+                title: "¡Diseños épicos en cada camiseta!",
                 image: "/images/Goku.jpg?auto=format&fit=crop&q=80",
-                description: "Ilustraciones únicas para tus proyectos 🎮"
+                description: "Estilo, color y personalidad en prendas que hablan por ti. 🎨👕"
               },
               {
                 title: "¡Accesorios Cool!",
@@ -198,7 +198,7 @@ function App() {
               <p className="text-mint/70">¡Diseños que cuentan historias! 🎨</p>
             </div>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-raspberry transition transform hover:scale-125">
+              <a href="https://www.instagram.com/juankmo360/?igsh=bnMxZGloN2xyODV4#" className="hover:text-raspberry transition transform hover:scale-125">
                 <Instagram className="w-6 h-6" />
               </a>
               <a href="#" className="hover:text-raspberry transition transform hover:scale-125">
