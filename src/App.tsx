@@ -65,7 +65,7 @@ function App() {
             <div className="md:w-1/2">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1542744094-24638eff58bb?auto=format&fit=crop&q=80" 
+                  src="/images/juankdisenando.png?auto=format&fit=crop&q=80" 
                   alt="Espacio creativo de Juan"
                   className="rounded-2xl shadow-xl transform -rotate-3 hover:rotate-0 transition duration-300"
                 />
@@ -88,17 +88,17 @@ function App() {
             {[
               {
                 title: "¡Camisetas Geniales!",
-                image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80",
+                image: "/images/Captain_America.jpg?auto=format&fit=crop&q=80",
                 description: "Diseños increíbles en materiales fantasticos para que te veas súper cool 😎"
               },
               {
                 title: "¡Arte Digital!",
-                image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80",
+                image: "/images/Goku.jpg?auto=format&fit=crop&q=80",
                 description: "Ilustraciones únicas para tus proyectos 🎮"
               },
               {
                 title: "¡Accesorios Cool!",
-                image: "https://images.unsplash.com/photo-1484501893812-534ceb4b9d65?auto=format&fit=crop&q=80",
+                image: "images/Spiderman.jpg?auto=format&fit=crop&q=80",
                 description: "Complementos que te harán destacar ⭐"
               }
             ].map((product, index) => (
